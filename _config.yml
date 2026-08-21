@@ -1,0 +1,22 @@
+url: "https://sustain-microarch.github.io"
+lang: en
+
+title: Sustainable Microarchitecture Workshop
+subtitle: October 31, 2026. Athens, Greece. Co-located @ MICRO 2026
+
+description: >-
+  Sustainable Microarchitecture Workshop is co-located with MICRO 2026. Topics include holistic lifecycle sustainability, quantifying the manufacturing footprint, energy-efficient silicon, cloud-scale AI efficiency, cross-stack co-design, and manufacturing sustainability. Organized by IMEC and Cornell, this workshop aims to close the loop between architecture-level design exploration and quantitative manufacturing footprint assessment by bringing together experts from both industry and academia.
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
+
+theme: jekyll-theme-cayman
+
