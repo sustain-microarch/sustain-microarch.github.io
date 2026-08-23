@@ -1,0 +1,17 @@
+- name: Timon Evenblij
+  photo: photos/timon-evenblij.jpeg
+  affiliation: imec
+  bio: >-
+    Timon Evenblij is a Principal Member of Technical Staff at the Compute System Architecture (CSA) department at imec. He received the M.S. degree in computer science engineering from Ghent University. He joined imec in 2017. His research is focused on performance modeling and performance analysis for future computer systems. As future systems utilize intensive hardware-software codesign, he is interested in all performance and power optimizations crossing multiple layers of the computer architecture stack, spanning from applications to semiconductor technology innovations.
+
+- name: Udit Gupta
+  photo: photos/udit-gupta.jpeg
+  affiliation: Cornell Tech
+  bio: >-
+    Udit Gupta is an Assistant Professor in the Department of Electrical and Computer Engineering at Cornell Tech. His research interests lie at the intersection of computer architecture, systems, machine learning and environmental sustainability by co-designing solutions across the computing stack (applications, algorithms, systems and architecture, circuits and devices). Udit's work has been recognized as IEEE MICRO Top Picks in 2023 and 2022 as well as received the SIGARCH Outstanding Ph.D. Dissertation Honorable Mention and the SIGMICRO Outstanding Ph.D. Dissertation Honorable Mention.
+
+- name: Arindam Mallik
+  photo: photos/arindam-mallik.png
+  affiliation: imec
+  bio: >-
+    Arindam Mallik is the Department Director for Compute System Architecture (CSA) at IMEC. He is a technologist enabling HW-SW co-design at the cross-point of AI algorithms, computer architecture, and novel technology solutions. Arindam has spent the past 20 years pushing the boundaries of technology research to provide novel solutions with a direct impact on the semiconductor industry. He has authored or co-authored more than 100 papers in international journals and conference proceedings and holds a number of relevant patents. He received M.S. and PhD degrees in Electrical Engineering and Computer Science from Northwestern University, USA in 2004 and 2008, respectively.

@@ -1,0 +1,77 @@
+---
+---
+
+// Import the Cayman theme.
+//
+// The theme's Sass variables (see the jekyll-theme-cayman gem,
+// _sass/variables.scss) are all marked `!default`, so values set here
+// take precedence. The palette below gives the header a
+// sustainability-inspired green instead of Cayman's default blue-green.
+// $header-bg-color: #1b5e43;           // deep forest green (header, right side of gradient)
+// $header-bg-color-secondary: #2f6b3a; // olive green (header, left side of gradient)
+// $section-headings-color: #1b5e43;    // section headings in the body
+// $body-link-color: #2f6b3a;           // links
+
+@import "jekyll-theme-cayman";
+
+
+.organisers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.organiser {
+    display: flex;
+    align-items: flex-start;
+}
+.organiser .photo-name {
+    width: 120px;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+.organiser .photo-name img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.organiser .photo-name p {
+    margin: 0;
+    font-weight: bold;
+}
+.organiser .bio {
+    flex: 1;
+}
+.organiser .bio h4 {
+    font-weight: bold;
+}
+.organiser .bio p {
+    margin: 0.25rem 0;
+}
+.organiser .bio p:first-child {
+    margin-top: 0;
+}
+
+@media (max-width: 640px) {
+    .organiser {
+        flex-direction: column;
+    }
+    .organiser .photo-name {
+        align-items: center;
+        display: flex;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+        margin-right: 0;
+        text-align: left;
+        width: 100%;
+    }
+    .organiser .photo-name img {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        width: 72px;
+    }
+    .organiser .bio {
+        width: 100%;
+    }
+}

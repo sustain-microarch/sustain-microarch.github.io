@@ -1,0 +1,21 @@
+# Build-check: runs a full Jekyll build on every push and pull request
+# so that broken markup or configuration is caught before it deploys.
+# Mirrors the local setup in Gemfile (github-pages gem).
+name: Build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true # runs `bundle install` and caches gems
+      - name: Build with Jekyll
+        run: bundle exec jekyll build

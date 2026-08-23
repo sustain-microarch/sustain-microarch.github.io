@@ -1,63 +1,84 @@
-# Sustainable Microarchitecture
-*From Silicon to Datacenter — Co-Designing AI Systems Across the Stack*
+# sustain-microarch.github.io
 
-[Program](#program) | [Topics](#topics) | [Format](#format) | [Organisers](#organisers)
+Source code for the **Sustainable Microarchitecture** workshop website — a single-page site built with [Jekyll](https://jekyllrb.com/) and the [Cayman](https://github.com/pages-themes/cayman) theme, hosted on GitHub Pages at <https://sustain-microarch.github.io/>.
 
-AI workloads are fundamentally reshaping computing's energy profile, yet sustainability is still treated as a secondary optimization rather than a first-order design constraint. Worse, current trends show the embodied footprint of computing — from raw-material extraction and semiconductor manufacturing through assembly and end-of-life — is approaching or exceeding the operational footprint, a shift that most architecture and systems research has yet to internalize. Sustainability has been established as a cross-cutting architectural concern over the recent years, and a central thesis in achieving sustainable compute system architecture is Architecture-Technology Co-Optimization (ATCO), where architectural decisions, packaging choices, and manufacturing processes must be jointly evaluated against sustainability objectives rather than optimized in isolation.
+> **Just making a small change?** Jump to [Quick edits](#quick-edits-no-web-development-needed). You do not need to run anything locally — change the text, commit, push. Everything else in this file is optional context.
 
-This workshop brings together four complementary perspectives to address this gap across the full computing stack and the full product lifecycle. At the silicon and package level, we examine how advanced packaging and 3D integration can reduce both operational energy and manufacturing waste. At the datacenter level, we address cloud-scale efficiency through inference serving disaggregation, power stabilization for AI training clusters, and hardware memory compression. Bridging these layers, we present cross-stack co-design methodologies for environmentally sustainable computing — from specialized hardware for recommendation and agentic AI workloads with open-source benchmarking through MLPerf, that decomposes computing's environmental impact into actionable architectural levers. The holistic lifecycle perspective — spanning extraction, manufacturing, use, and end-of-life — provides the conceptual spine that connects every technical contribution. We also extend this trajectory by integrating [IMEC's SSTS initiative](https://www.imec-int.com/en/expertise/cmos-advanced/sustainable-semiconductor-technologies-and-systems-ssts), closing the loop between architecture-level design exploration and quantitative manufacturing footprint assessment.
+## Repo layout
 
+```
+.github/workflows/build-check.yml   # CI: builds the site on every push / pull request
+_layouts/default.html               # page template: header (title, tagline, section nav) + content
+assets/css/style.scss               # theme colors + any extra styles
+index.md                            # THE WEBSITE — all text of the single page
+photos/                             # images (organiser photos), referenced from index.md
+resources/                          # talk slides & papers (PDFs), linked from the Program table
+_config.yml                         # site settings: title, tagline, description, section nav, theme
+Gemfile / Gemfile.lock              # Ruby gems needed to run the site locally
+_site/                              # generated build output (never committed)
+```
 
-## Program
+`index.md` is the only file that matters for content; the rest is plumbing.
 
-| Time  | Session | Speaker | Topic | Resources |
-|---|---|---|---|---|
-| 08:00 - 08:15 | Introduction | Timon Evenblij | Overview of the Workshop |   |
-| 08:15 - 09:30 | Session 1 | To be announced |   |   |
-| 09:30 - 10:00 | Session 2 | To be announced |   |   |
-| 10:00 - 10:30 | Coffee Break |   |   |   |
-| 10:30 - 11:00 | Session 2 | To be announced |   |   |
-| 11:00 - 12:00 | Session 3 | Panel Discussion |   |   |
+## Quick edits (no web development needed)
 
+GitHub Pages rebuilds the site automatically after every push to `main` (usually under a minute). You can edit files right in the GitHub web UI: open the file → pencil icon → *Edit this file* → change → *Commit changes*. A text editor + `git` works the same way.
 
-## Topics
+### Change text (names, times, session blurbs)
 
-* Holistic lifecycle sustainability: embodied vs. operational footprint, and full-lifecycle LCA
-* Quantifying the manufacturing footprint: imec.netzero virtual fab modeling and the SSTS industry consortium
-* Energy-efficient silicon: advanced packaging (chiplets, DRAM-on-Logic, 3D integration) and SoC/SiP design for sustainability
-* Cloud-scale AI efficiency: Splitwise inference disaggregation, power stabilization, hardware memory compression
-* Cross-stack co-design: specialized systems for recommendation and agentic AI, democratizing AI on resource-constrained hardware
-* Manufacturing sustainability R&D (PFAS-free materials, process gas abatement)
+1. Open `index.md`.
+2. Find the text (a cell in the **Program** table, a **Topics** bullet, a paragraph in **Format**, …) and edit it.
+3. Commit and push.
 
+Markdown refresher: `## Heading` = section heading, `*italic*`, **bold**, [links](https://example.org). Tables and lists work as-is — keep the existing column structure when editing table rows.
 
-## Format
+### Announce a talk (speaker, topic, slides)
 
-### Session 1 — Industry Perspectives
-*Sustainable AI from Fab to Cloud: What Industry Is Building and Deploying*
- 
-This session is meant to equip attendees with a concrete understanding of what industry is actively building and deploying to address computing sustainability — from semiconductor manufacturing through cloud-scale AI infrastructure. Attendees will see how lifecycle assessment tooling (imec.netzero) quantifies the environmental cost of chip fabrication, how advanced packaging and 3D integration reduce operational energy at the silicon level, and how production-deployed systems for inference disaggregation, power stabilization, and memory compression are achieving measurable efficiency gains in hyperscale AI datacenters today.
- 
-### Session 2 — Academic Perspectives
-*Frameworks, Metrics, and Methodologies for Sustainable Architecture Research*
+1. Fill in the row for that session in the **Program** table in `index.md`: speaker in the *Speaker* column, topic in the *Topic* column.
+2. If slides exist: put the PDF in `resources/` named `session-<n>-<short-slug>.pdf` (e.g. `session-1-splitwise.pdf`), then add a link in the *Resources* column of the same row: `[Slides](/resources/session-1-splitwise.pdf)`. For multiple files, add comma-separated links.
+3. Commit and push.
 
-The objective of this session is to provide attendees with the conceptual frameworks and research methodologies needed to embed sustainability into architecture and systems research. Attendees will learn how to treat environmental sustainability as a first-order design constraint across the full computing stack, how open-source benchmarking and workload characterization enable reproducible sustainability research, and how holistic lifecycle thinking — from raw-material extraction to end-of-life — reframes architectural optimization when the embodied footprint rivals or exceeds the operational footprint.
-  
-### Session 3 — Panel Discussion 
-*Where Do We Go from Here? Bridging Industry Practice and Academic Research for Sustainable Computing*
- 
-In this session, we synthesize the industry and academic perspectives into actionable next steps for the community. A moderated panel of our invited speakers from the industry and academia, with audience participation, will address three provocations:
+Note: GitHub rejects single files larger than **100 MB**. For heavier media, host it elsewhere (e.g. an IMEC share) and link that URL in the cell instead.
 
-1. What sustainability metrics should architecture conferences require in paper evaluations?
-2. How do we close the gap between manufacturing-level LCA data and system-level design decisions?
-3. Is the embodied-vs-operational crossover a temporary trend or a permanent shift — and what does that mean for research priorities?
+### Change the header
 
-**Co-Design Exercise**: This session concludes beyond the panel discussion with a *hands-on co-design exercise* where cross-disciplinary groups develop sustainable architecture strategies for a representative AI workload.
+- The title and the date line in the header: the `title:` and `subtitle:` values in `_config.yml`.
+- The section links in the header (Program, Topics, Format, Organisers): the `nav:` list in `_config.yml` — add, remove, or rename entries. The `url:` of each entry must match a `##` heading in `index.md` (lowercase, spaces as dashes; e.g. `## Organisers` → `#organisers`).
 
+## For web developers
 
-## Organisers
+### Local development
 
-| | |
+Requires [Ruby](https://ruby-lang.org/) (3.x) with Bundler.
+
+```sh
+bundle install            # once — installs github-pages + all plugins
+bundle exec jekyll serve  # then open http://localhost:4000
+```
+
+Add `--livereload` to auto-refresh the browser on changes. The `github-pages` gem in the `Gemfile` installs the same Jekyll version and plugin set that GitHub Pages uses, so what you see locally matches the deployed site.
+
+### Theming
+
+The site uses the `jekyll-theme-cayman` gem (declared in `_config.yml`). To change the palette, set the theme's Sass variables at the top of `assets/css/style.scss` — *before* the `@import "jekyll-theme-cayman"` line (they are all `!default`, e.g. `$header-bg-color`). Additional styles go below the import. The header (title, tagline, section nav, buttons) is rendered by `_layouts/default.html`, a small extension of the theme's layout.
+
+### CI
+
+`.github/workflows/build-check.yml` runs a full `jekyll build` on every push and pull request. A red build means the site cannot render — check the workflow log in the *Actions* tab for the failing file. Pushes to `main` deploy the site regardless of the check, so keep PRs green before merging.
+
+## Hosting on GitHub Pages
+
+- This is a **user/organization site**: the repo must be named `sustain-microarch.github.io`, and GitHub Pages is configured to build the `main` branch (no extra setup required).
+- **Deploying is just `git push`** to `main`. No build artifacts are committed — `_site/` is generated locally and git-ignored; Pages builds the site itself.
+- The site is public at <https://sustain-microarch.github.io/>. There is no staging environment: `main` *is* production. For review, open a pull request (the CI check gives a red/green signal) and preview locally with `bundle exec jekyll serve` before merging.
+- SEO: the `{% seo %}` tag in the layout fills in title/description/Open Graph meta from `_config.yml`; a sitemap is generated at `/sitemap.xml` by `jekyll-sitemap`.
+
+## Troubleshooting
+
+| Symptom | Fix |
 |---|---|
-| ![Timon Evenblij Photo](./photos/timon-evenblij.jpeg) | **Timon Evenblij (imec)** is a Principal Member of Technical Staff at the Compute System Architecture (CSA) department at imec. He received the M.S. degree in computer science engineering from Ghent University. He joined imec in 2017. His research is focused on performance modeling and performance analysis for future computer systems. As future systems utilize intensive hardware–software codesign, he is interested in all performance and power optimizations crossing multiple layers of the computer architecture stack, spanning from applications to semiconductor technology innovations. |
-| ![Udit Gupta Photo](./photos/udit-gupta.jpeg) | **Udit Gupta (Cornell Tech)** is an Assistant Professor in the Department of Electrical and Computer Engineering at Cornell Tech. His research interests lie at the intersection of computer architecture, systems, machine learning and environmental sustainability by co-designing solutions across the computing stack (applications, algorithms, systems and architecture, circuits and devices). Udit’s work has been recognized as IEEE MICRO Top Picks in 2023 and 2022 as well as received the SIGARCH Outstanding Ph.D. Dissertation Honorable Mention and the SIGMICRO Outstanding Ph.D. Dissertation Honorable Mention. |
-| ![Arindam Mallik Photo](./photos/arindam-mallik.png) | **Arindam Mallik (imec)** leads Compute System Architecture (CSA) department at imec. He is a technologist enabling HW-SW co-design at the cross-point of AI algorithms, computer architecture, and novel technology solutions. Arindam has spent the past 20 years pushing the boundaries of technology research to provide novel solutions with a direct impact on the semiconductor industry. He has authored or co-authored more than 100 papers in international journals, conference proceedings, and holds number of relevant patents. He received M.S. and PhD degree in Electrical Engineering and Computer Science from Northwestern University, USA in 2004 and 2008, respectively.|
+| Broken image | File missing from `photos/`, or the path in `index.md` doesn't match the filename exactly (case-sensitive). |
+| 404 on a resource link | Check the file exists in `resources/` and the link is written `/resources/<filename>` with a leading slash. |
+| `bundle install` fails | Use Ruby 3.x. If it still fails, delete `Gemfile.lock` and retry (only if you deliberately changed the `Gemfile`). |
+| Site not updated after a push | Wait ~1 minute, then check the *Actions* tab — a failed build means the previous version is still served. |
+| `nav` links don't scroll | The `url:` anchor in `_config.yml` doesn't match a `##` heading in `index.md`. |
