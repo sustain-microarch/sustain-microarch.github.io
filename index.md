@@ -15,12 +15,21 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
 
 | Time  | Session | Speaker | Topic | Resources |
 |---|---|---|---|---|
-| 08:00 - 08:15 | Introduction | Timon Evenblij | Overview of the Workshop |   |
-| 08:15 - 09:30 | Session 1 | To be announced |   |   |
-| 09:30 - 10:00 | Session 2 | To be announced |   |   |
-| 10:00 - 10:30 | Coffee Break |   |   |   |
-| 10:30 - 11:00 | Session 2 | To be announced |   |   |
-| 11:00 - 12:00 | Session 3 | Panel Discussion |   |   |
+| 08:00 - 08:05 | Opening | Arindam Malik (imec) | Overview of the Workshop |   |
+| 08:05 - 08:20 | Session 1 | Rutwik Jain (Uwisc) |   |   |
+| 08:20 - 08:35 | Session 1 | Mariam Elgamal (Harvard) |   |   |
+| 08:35 - 08:50 | Session 1 | August Ning (EPFL)) |   |   |
+| 08:50 - 09:00 | Buffer + Coffee Break |   |   |   |
+| 09:00 - 09:15 | Session 2 | Luca Benini (ETHZ)   |   |   |
+| 09:15 - 09:30 | Session 2 | Abdulrahman Mahmoud (MBZUAI)   |   |   |
+| 09:30 - 09:45 | Session 2 | Vijay Reddi (Harvard)   |   |   |
+| 09:45 - 10:00 | Buffer + Coffee break |   |   |   |
+| 10:00 - 10:15 | Session 3 | Alex Bruefach (Meta) |   |   |
+| 10:15 - 10:30 | Session 3 | Sarah McAllister (UWisc) |   |   |
+| 10:30 - 10:45 | Session 3 | Timon Evenblij (imec) |   |   |
+| 10:45- 11:00 | Buffer + Coffee break |   |   |   |
+| 11:00 - 11:30 | Panel | All presenters |   |   |
+| 11:30 - 12:00 | Codesign exercises | All workshop attendees |   |   |
 
 
 ## Topics
