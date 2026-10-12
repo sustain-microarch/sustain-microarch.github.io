@@ -53,6 +53,58 @@
     margin-top: 0;
 }
 
+.speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.speaker {
+    align-items: flex-start;
+    border-bottom: 1px solid #d9e0dc;
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.speaker .photo-name {
+    flex: 0 0 120px;
+    margin-right: 0;
+    width: 120px;
+}
+.speaker .photo-name img {
+    aspect-ratio: 4 / 5;
+    border-radius: 8px;
+    display: block;
+    height: 150px;
+    object-fit: cover;
+    width: 120px;
+}
+.speaker .bio {
+    flex: 1;
+    min-width: 0;
+}
+.speaker .bio h3 {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+.speaker-affiliation {
+    font-weight: bold;
+}
+.speaker-talk,
+.speaker-focus,
+.speaker-participation {
+    margin: 0.5rem 0;
+}
+.speaker details {
+    margin: 0.75rem 0;
+}
+.speaker summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+.speaker details p {
+    line-height: 1.6;
+}
+
 @media (max-width: 640px) {
     .organiser {
         flex-direction: column;
@@ -73,5 +125,17 @@
     }
     .organiser .bio {
         width: 100%;
+    }
+    .speaker {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    .speaker .photo-name {
+        flex-basis: auto;
+        width: 96px;
+    }
+    .speaker .photo-name img {
+        height: 120px;
+        width: 96px;
     }
 }

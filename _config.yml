@@ -3,12 +3,12 @@ lang: en
 
 # Header: the title is shown as the main heading and the subtitle as the
 # tagline below it (see _layouts/default.html).
-title: Sustainable Microarchitecture Workshop
-subtitle: October 31, 2026 | Athens, Greece | Co-located with MICRO 2026
+title: "Sustainable Computing Architecture: From Silicon to Datacenter – Co-Designing AI Systems Across the Stack"
+subtitle: "Saturday, October 31, 2026 | Athens, Greece | Part of MICRO 2026"
 
 # Used for the site's SEO/social (Open Graph) meta tags.
 description: >-
-  Sustainable Microarchitecture Workshop is co-located with MICRO 2026. Topics include holistic lifecycle sustainability, quantifying the manufacturing footprint, energy-efficient silicon, cloud-scale AI efficiency, cross-stack co-design, and manufacturing sustainability. Organized by IMEC and Cornell, this workshop aims to close the loop between architecture-level design exploration and quantitative manufacturing footprint assessment by bringing together experts from both industry and academia.
+  Sustainable Computing Architecture: From Silicon to Datacenter – Co-Designing AI Systems Across the Stack is part of MICRO 2026 in Athens on October 31, 2026. Topics include holistic lifecycle sustainability, quantifying the manufacturing footprint, energy-efficient silicon, cloud-scale AI efficiency, cross-stack co-design, and manufacturing sustainability. Organized by IMEC and Cornell, this workshop aims to close the loop between architecture-level design exploration and quantitative manufacturing footprint assessment by bringing together experts from both industry and academia.
 
 plugins:
   - jekyll-relative-links
@@ -30,6 +30,8 @@ nav:
     url: "#topics"
   - name: Format
     url: "#format"
+  - name: Co-Design Exercises
+    url: "#sustainability-co-design-exercises"
   - name: Organisers
     url: "#organisers"
   - name: Speakers
