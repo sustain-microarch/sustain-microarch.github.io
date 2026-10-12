@@ -6,9 +6,7 @@ Sustainability has been established as a cross-cutting architectural concern ove
 
 ## Objective
 
-This workshop brings together complementary perspectives to address this gap across the full computing stack and the full product lifecycle. At the silicon and package level, we examine how advanced packaging and 3D integration can reduce both operational energy and manufacturing waste. At the datacenter level, we address cloud-scale efficiency through inference serving disaggregation, power stabilization for AI training clusters, and hardware memory compression. 
-
-Bridging these layers, we present cross-stack co-design methodologies for environmentally sustainable computing — from specialized hardware for recommendation and agentic AI workloads with open-source benchmarking through MLPerf, that decomposes computing's environmental impact into actionable architectural levers. The holistic lifecycle perspective — spanning extraction, manufacturing, use, and end-of-life — provides the conceptual spine that connects every technical contribution. We also extend this trajectory by integrating [IMEC's SSTS initiative](https://www.imec-int.com/en/expertise/cmos-advanced/sustainable-semiconductor-technologies-and-systems-ssts), closing the loop between architecture-level design exploration and quantitative manufacturing footprint assessment.
+This workshop brings together complementary perspectives to address this gap across the full computing stack and the full product lifecycle. Bridging these layers, the workshop presents cross-stack co-design methodologies for environmentally sustainable computing that decomposes computing's environmental impact into actionable architectural levers. The workshop is intended to turn the attendee towards action, therefore we end the workshop with a hands-on codesign exercise.
 
 
 ## Program
@@ -20,7 +18,7 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
 | 08:20 - 08:35 | Session 1 | Mariam Elgamal (Harvard) |   |   |
 | 08:35 - 08:50 | Session 1 | August Ning (EPFL) |   |   |
 | 08:50 - 09:00 | Buffer + Coffee Break |   |   |   |
-| 09:00 - 09:15 | Session 2 | Luca Benini (ETHZ) | Energy efficiency and Power management for AI accelerators - Tackling the MW rack challenge |   |
+| 09:00 - 09:15 | Session 2 | Luca Benini (ETHZ, UNIBO) | Energy efficiency and Power management for AI accelerators - Tackling the MW rack challenge |   |
 | 09:15 - 09:30 | Session 2 | Abdulrahman Mahmoud (MBZUAI)   |   |   |
 | 09:30 - 09:45 | Session 2 | Vijay Reddi (Harvard) | Flexible electronics for sustainable computing |   |
 | 09:45 - 10:00 | Buffer + Coffee break |   |   |   |
@@ -30,16 +28,6 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
 | 10:45- 11:00 | Buffer + Coffee break |   |   |   |
 | 11:00 - 11:30 | Panel | All presenters |   |   |
 | 11:30 - 12:00 | Codesign exercises | All workshop attendees | Interactive sustainability co-design | [Exercise details](#sustainability-co-design-exercises) |
-
-
-## Topics
-
-* Holistic lifecycle sustainability: embodied vs. operational footprint, and full-lifecycle LCA
-* Quantifying the manufacturing footprint: imec.netzero virtual fab modeling and the SSTS industry consortium
-* Energy-efficient silicon: advanced packaging (chiplets, DRAM-on-Logic, 3D integration) and SoC/SiP design for sustainability
-* Cloud-scale AI efficiency: Splitwise inference disaggregation, power stabilization, hardware memory compression
-* Cross-stack co-design: specialized systems for recommendation and agentic AI, democratizing AI on resource-constrained hardware
-* Manufacturing sustainability R&D (PFAS-free materials, process gas abatement)
 
 
 ## Format
@@ -114,7 +102,7 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
 ### Panel Discussion
 *Bridging Industry Practice and Academic Research for Sustainable Computing*
 
-In this session, we synthesize the industry and academic perspectives into actionable next steps for the community. A moderated panel of our invited speakers from industry and academia, with audience participation, will address four themes:
+In the panel, we synthesize the industry and academic perspectives into actionable next steps for the community. A moderated panel of our invited speakers will address four themes, along with any questions from the audience:
 
 1. **Energy efficiency:** Is energy efficiency still a meaningful sustainability objective for AI?
 2. **Total carbon emissions as a metric:** How can researchers reasonably report the total carbon of a chip design?
