@@ -65,7 +65,7 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
       </details>
     </div>
   </article>
-  
+
   <article class="speaker">
     <div class="photo-name">
       <img src="{{ '/photos/alex-bruefach.jpg' | relative_url }}" alt="Headshot of Alex Bruefach" width="120" height="150" loading="lazy">
@@ -93,7 +93,6 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
     <div class="bio">
       <h3>Mariam Elgamal</h3>
       <p class="speaker-affiliation">PhD candidate, Harvard University</p>
-      <p class="speaker-focus"><strong>Research focus:</strong> Sustainable computing across multiple layers of the computing stack, connecting computer architecture with circuits and devices and the embodied carbon footprint of fabricating compute and memory.</p>
       <details>
         <summary>Biography</summary>
         <p>Mariam Elgamal is a PhD candidate at Harvard University, working with Professors Gage Hills, David Brooks, and Gu-Yeon Wei. Her research interests are at the intersection of computer architecture and circuit design, with a focus on optimizing computing systems for energy efficiency and environmental sustainability across multiple layers of the computing stack. Mariam’s work appears in venues including ISCA, HPCA, ASPLOS, DATE, ICCAD, and IEDM, and has been recognized by multiple awards, including: 2023 IEEE Micro Top Picks, HPCA 2025 Best Paper Honorable Mention, DATE 2025 Best Paper Award Candidate, ASPLOS 2026 Best Paper Award, and 2026 IEEE Micro Top Picks Honorable Mention. She was also recognized as a Heidelberg Laureate Forum Young Investigator, and a NextProf Nexus 2025 Awardee.</p>
