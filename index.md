@@ -6,7 +6,7 @@ Sustainability has been established as a cross-cutting architectural concern ove
 
 ## Objective
 
-This workshop brings together four complementary perspectives to address this gap across the full computing stack and the full product lifecycle. At the silicon and package level, we examine how advanced packaging and 3D integration can reduce both operational energy and manufacturing waste. At the datacenter level, we address cloud-scale efficiency through inference serving disaggregation, power stabilization for AI training clusters, and hardware memory compression. 
+This workshop brings together complementary perspectives to address this gap across the full computing stack and the full product lifecycle. At the silicon and package level, we examine how advanced packaging and 3D integration can reduce both operational energy and manufacturing waste. At the datacenter level, we address cloud-scale efficiency through inference serving disaggregation, power stabilization for AI training clusters, and hardware memory compression. 
 
 Bridging these layers, we present cross-stack co-design methodologies for environmentally sustainable computing — from specialized hardware for recommendation and agentic AI workloads with open-source benchmarking through MLPerf, that decomposes computing's environmental impact into actionable architectural levers. The holistic lifecycle perspective — spanning extraction, manufacturing, use, and end-of-life — provides the conceptual spine that connects every technical contribution. We also extend this trajectory by integrating [IMEC's SSTS initiative](https://www.imec-int.com/en/expertise/cmos-advanced/sustainable-semiconductor-technologies-and-systems-ssts), closing the loop between architecture-level design exploration and quantitative manufacturing footprint assessment.
 
@@ -44,17 +44,10 @@ Bridging these layers, we present cross-stack co-design methodologies for enviro
 
 ## Format
 
-### Session 1 — Industry Perspectives
-*Sustainable AI from Fab to Cloud: What Industry Is Building and Deploying*
+### 3 Sessions with presenters from practitioners across the AI stack
+Titles and abstracts of each presenter will be uploaded soon.
 
-This session is meant to equip attendees with a concrete understanding of what industry is actively building and deploying to address computing sustainability — from semiconductor manufacturing through cloud-scale AI infrastructure. Attendees will see how lifecycle assessment tooling (imec.netzero) quantifies the environmental cost of chip fabrication, how advanced packaging and 3D integration reduce operational energy at the silicon level, and how production-deployed systems for inference disaggregation, power stabilization, and memory compression are achieving measurable efficiency gains in hyperscale AI datacenters today.
-
-### Session 2 — Academic Perspectives
-*Frameworks, Metrics, and Methodologies for Sustainable Architecture Research*
-
-The objective of this session is to provide attendees with the conceptual frameworks and research methodologies needed to embed sustainability into architecture and systems research. Attendees will learn how to treat environmental sustainability as a first-order design constraint across the full computing stack, how open-source benchmarking and workload characterization enable reproducible sustainability research, and how holistic lifecycle thinking — from raw-material extraction to end-of-life — reframes architectural optimization when the embodied footprint rivals or exceeds the operational footprint.
-
-### Session 3 — Panel Discussion
+### Panel Discussion
 *Bridging Industry Practice and Academic Research for Sustainable Computing*
 
 In this session, we synthesize the industry and academic perspectives into actionable next steps for the community. A moderated panel of our invited speakers from the industry and academia, with audience participation, will address three provocations:
@@ -63,9 +56,10 @@ In this session, we synthesize the industry and academic perspectives into actio
 2. How do we close the gap between manufacturing-level LCA data and system-level design decisions?
 3. Is the embodied-vs-operational crossover a temporary trend or a permanent shift — and what does that mean for research priorities?
 
-*Co-Design Exercise -- Where do we go from here?*
+### Co-Design Exercise -- Where do we go from here?*
 
 This session concludes beyond the panel discussion with a *hands-on co-design exercise* where cross-disciplinary groups develop sustainable architecture strategies for a representative AI workload.
+
 
 
 ## Organisers
@@ -89,7 +83,7 @@ This session concludes beyond the panel discussion with a *hands-on co-design ex
 
 ## Speakers
 
-To be announced.
+Speaker bio's will be updated soon
 
 <!-- <div class="speakers">
 
