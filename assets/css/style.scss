@@ -98,8 +98,26 @@
     margin: 0.75rem 0;
 }
 .speaker summary {
+    align-items: center;
     cursor: pointer;
+    display: flex;
     font-weight: bold;
+    gap: 0.5rem;
+    list-style: none;
+}
+.speaker summary::-webkit-details-marker {
+    display: none;
+}
+.speaker summary::before {
+    border-bottom: 0.3rem solid transparent;
+    border-left: 0.4rem solid currentColor;
+    border-top: 0.3rem solid transparent;
+    content: "";
+    flex: 0 0 auto;
+    transition: transform 0.15s ease;
+}
+.speaker details[open] > summary::before {
+    transform: rotate(90deg);
 }
 .speaker details p {
     line-height: 1.6;
