@@ -24,7 +24,7 @@ This workshop brings together complementary perspectives to address this gap acr
 | 09:45 - 10:00 | Buffer + Coffee break |   |   |   |
 | 10:00 - 10:15 | Session 3 | Alex Bruefach (Meta) | Designing Data Foundations for Sustainability at Scale |   |
 | 10:15 - 10:30 | Session 3 | Sarah McAllister (UWisc) |   |   |
-| 10:30 - 10:45 | Session 3 | Timon Evenblij (imec) |   |   |
+| 10:30 - 10:45 | Session 3 | Timon Evenblij (imec) | The impact of IC manufacturing on the sustainability of AI  |   |
 | 10:45- 11:00 | Buffer + Coffee break |   |   |   |
 | 11:00 - 11:30 | Panel | All presenters |   |   |
 | 11:30 - 12:00 | Codesign exercises | All workshop attendees | Interactive sustainability co-design | [Exercise details](#sustainability-co-design-exercises) |
@@ -135,6 +135,7 @@ This workshop brings together complementary perspectives to address this gap acr
     <div class="bio">
       <h3>Timon Evenblij</h3>
       <p class="speaker-affiliation">imec</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>The impact of IC manufacturing on the sustainability of AI</em></p>
       <details>
         <summary>Biography</summary>
         <p>{{ timon_organiser.bio }}</p>
