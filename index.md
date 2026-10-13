@@ -130,7 +130,7 @@ This workshop brings together complementary perspectives to address this gap acr
   {% assign timon_organiser = site.data.organisers | where: "name", "Timon Evenblij" | first %}
   <article class="speaker">
     <div class="photo-name">
-      <img src="{{ '/photos/timon-evenblij.jpeg' | relative_url }}" alt="Headshot of Timon Evenblij" width="120" height="150" loading="lazy">
+      <img src="{{ '/photos/timon-evenblij.jpg' | relative_url }}" alt="Headshot of Timon Evenblij" width="120" height="150" loading="lazy">
     </div>
     <div class="bio">
       <h3>Timon Evenblij</h3>
