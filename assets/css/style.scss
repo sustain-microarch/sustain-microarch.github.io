@@ -78,6 +78,13 @@
     object-fit: cover;
     width: 120px;
 }
+.speaker .photo-placeholder {
+    aspect-ratio: 4 / 5;
+    background-color: #f3f5f4;
+    border: 1px dashed #cbd5d0;
+    border-radius: 8px;
+    height: 150px;
+}
 .speaker .bio {
     flex: 1;
     min-width: 0;
@@ -153,6 +160,10 @@
         width: 96px;
     }
     .speaker .photo-name img {
+        height: 120px;
+        width: 96px;
+    }
+    .speaker .photo-placeholder {
         height: 120px;
         width: 96px;
     }

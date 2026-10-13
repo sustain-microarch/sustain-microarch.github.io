@@ -91,10 +91,61 @@ This workshop brings together complementary perspectives to address this gap acr
 
 
   <article class="speaker">
+    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
     <div class="bio">
       <h3>Vijay Janapa Reddi</h3>
       <p class="speaker-affiliation">Gordon McKay Professor of Electrical Engineering, John A. Paulson School of Engineering and Applied Sciences, Harvard University</p>
       <p class="speaker-talk"><strong>Talk topic:</strong> <em>Flexible electronics for sustainable computing</em></p>
+    </div>
+  </article>
+
+  <article class="speaker">
+    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="bio">
+      <h3>Arindam Malik</h3>
+    </div>
+  </article>
+
+  <article class="speaker">
+    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="bio">
+      <h3>Rutwik Jain</h3>
+    </div>
+  </article>
+
+  <article class="speaker">
+    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="bio">
+      <h3>August Ning</h3>
+    </div>
+  </article>
+
+  <article class="speaker">
+    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="bio">
+      <h3>Abdulrahman Mahmoud</h3>
+    </div>
+  </article>
+
+  <article class="speaker">
+    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="bio">
+      <h3>Sarah McAllister</h3>
+    </div>
+  </article>
+
+  {% assign timon_organiser = site.data.organisers | where: "name", "Timon Evenblij" | first %}
+  <article class="speaker">
+    <div class="photo-name">
+      <img src="{{ '/photos/timon-evenblij.jpeg' | relative_url }}" alt="Headshot of Timon Evenblij" width="120" height="150" loading="lazy">
+    </div>
+    <div class="bio">
+      <h3>Timon Evenblij</h3>
+      <p class="speaker-affiliation">imec</p>
+      <details>
+        <summary>Biography</summary>
+        <p>{{ timon_organiser.bio }}</p>
+      </details>
     </div>
   </article>
 </div>
