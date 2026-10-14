@@ -121,9 +121,21 @@ This workshop brings together complementary perspectives to address this gap acr
   </article>
 
   <article class="speaker">
-    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="photo-name">
+      <img src="{{ '/photos/sara-mcallister.png' | relative_url }}" alt="Headshot of Sarah McAllister" width="120" height="150" loading="lazy">
+    </div>
     <div class="bio">
-      <h3>Sarah McAllister</h3>
+      <h3>Sara McAllister</h3>
+      <p class="speaker-affiliation">Assistant Professor, University of Wisconsin-Madison, Computer Science Department</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>Out of sight, but no longer out of mind: tackling stored data’s emissions footprint</em></p>
+      <details>
+        <summary>Abstract</summary>
+        <p>As AI workloads rapidly grow and improve, we will not only see more accelerators and compute, but also more data and more value in that data. While we are beginning to understand the emissions impact of these computing increases and how to mitigate them, storage’s emissions both remain out of sight despite dominating datacenter’s embodied footprint. In this talk, I will discuss the need for storage-specific emissions solutions, the challenges of decreasing storage’s emissions, and techniques to start addressing them.</p>
+      </details>
+      <details>
+        <summary>Biography</summary>
+        <p>Sara McAllister is an Assistant Professor at the University of Wisconsin-Madison in the Computer Science Department. Her research focuses on building sustainable datacenters, spanning caching, memory, storage, and AI systems from hardware to software. Her work has appeared at OSDI, SOSP, and ICML, including receiving Best Paper Awards at SOSP 2021 and SIGCSE 2023. She was a 2021 NDSEG Fellow, a 2023 EECS Rising Star, and a 2025 Siebel Scholar.</p>
+      </details>
     </div>
   </article>
 
