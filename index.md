@@ -107,9 +107,21 @@ This workshop brings together complementary perspectives to address this gap acr
   </article>
 
   <article class="speaker">
-    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="photo-name">
+      <img src="{{ '/photos/ning_headshot_20261015_compressed.jpeg' | relative_url }}" alt="Headshot of August Ning" width="120" height="150" loading="lazy">
+    </div>
     <div class="bio">
       <h3>August Ning</h3>
+      <p class="speaker-affiliation">Postdoctoral Researcher, EPFL</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>Metrics for Energy-Efficient Server Design and Operation</em></p>
+      <details>
+        <summary>Abstract</summary>
+        <p>The recent unprecedented datacenter build-out has strained power grids and semiconductor economic markets around the world. To continue efficiency gains, server designers and datacenter operators must extract the most performance possible out of the power and hardware available to them. This talk motivates two metrics for designing and operating servers in this resource-constrained paradigm. First, at the server level, server CPU designs must prioritize Silicon Efficiency and optimize for both performance per power and performance per silicon area. Second, at the facility level, operating efficiency should look beyond Power Utilization Effectiveness (PUE) and further break down PUE's IT power using Infrastructure Utilization Efficiency (IUE). We will detail these two metrics and demonstrate how they encourage sustainable server design and operation.</p>
+      </details>
+      <details>
+        <summary>Biography</summary>
+        <p>August Ning is a postdoctoral researcher at EPFL working with Prof. Babak Falsafi, PARSA, and EcoCloud. His research interests span computer architecture under broadly defined economic constraints such as datacenters operation, sustainability, TCO, and computing policy. August received his PhD from Princeton University where he was advised by Prof. David Wentzlaff and supported by Princeton’s Gordon Y. S. Wu Fellowship and the NSF GRFP.</p>
+      </details>
     </div>
   </article>
 
@@ -122,7 +134,7 @@ This workshop brings together complementary perspectives to address this gap acr
 
   <article class="speaker">
     <div class="photo-name">
-      <img src="{{ '/photos/sara-mcallister.png' | relative_url }}" alt="Headshot of Sarah McAllister" width="120" height="150" loading="lazy">
+      <img class="sara-headshot" src="{{ '/photos/sara-mcallister.png' | relative_url }}" alt="Headshot of Sara McAllister" width="120" height="150" loading="lazy">
     </div>
     <div class="bio">
       <h3>Sara McAllister</h3>

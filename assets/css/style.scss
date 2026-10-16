@@ -78,6 +78,9 @@
     object-fit: cover;
     width: 120px;
 }
+.speaker .photo-name img.sara-headshot {
+    object-position: 0% center;
+}
 .speaker .photo-placeholder {
     aspect-ratio: 4 / 5;
     background-color: #f3f5f4;
