@@ -100,9 +100,22 @@ This workshop brings together complementary perspectives to address this gap acr
   </article>
 
   <article class="speaker">
-    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="photo-name">
+      <img src="{{ '/photos/rutwik-jain.jpg' | relative_url }}" alt="Headshot of Rutwik Jain" width="120" height="150" loading="lazy">
+    </div>
     <div class="bio">
       <h3>Rutwik Jain</h3>
+      <p class="speaker-affiliation">Ph.D. candidate, Computer Sciences, University of Wisconsin-Madison</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>Embrace the Chaos: Harnessing Variability for Large-Scale System Efficiency</em></p>
+      <details>
+        <summary>Abstract</summary>
+        <p>Workload scaling has led large-scale systems like datacenters, supercomputers, and hyperscalers to deploy large, accelerator-rich systems with extreme power limits. Current GPU Thermal Design Power limits (TDPs) range from 1400-2000W, scaling to extreme power budgets at scale. Thus, power has displaced performance as the dominant constraint. My works address this challenge by co-optimizing power and performance at scale through cross-stack approaches spanning hardware, firmware, systems, and applications.</p>
+        <p>Specifically, my research focuses on variability across GPUs in large-scale systems. I will present key insights from our variability characterization across different clusters and how we developed solutions for harnessing variability at the scheduler level to achieve better job performance and resource utilization. I will also talk about power excursions, where power temporarily spikes over GPU limits, and how excursion management can lead to performance gains and help carry out power optimizations like capping/pinning at scale.</p>
+      </details>
+      <details>
+        <summary>Biography</summary>
+        <p>Rutwik Jain is a Ph.D. candidate in the Computer Sciences department at the University of Wisconsin-Madison, advised by Prof. Matt Sinclair and Prof. Shivaram Venkataraman. His research interests are at the intersection of high-performance computing, computer architecture, and systems, with a focus on power management and power-performance co-optimization for large-scale accelerator-rich systems. Rutwik's work has appeared in Supercomputing (SC) and SIGMETRICS and he collaborates with Oakridge National Labs (ORNL) and AMD Research and Advanced Development (RAD) on his research. He was recognized as a Future Leader of AI at the doctoral consortium of the inaugural ACM AI Leadership Summit 2026.</p>
+      </details>
     </div>
   </article>
 
@@ -126,9 +139,17 @@ This workshop brings together complementary perspectives to address this gap acr
   </article>
 
   <article class="speaker">
-    <div class="photo-name photo-placeholder" aria-hidden="true"></div>
+    <div class="photo-name">
+      <img src="{{ '/photos/abdulrahman.jpg' | relative_url }}" alt="Headshot of Abdulrahman Mahmoud" width="120" height="150" loading="lazy">
+    </div>
     <div class="bio">
       <h3>Abdulrahman Mahmoud</h3>
+      <p class="speaker-affiliation">Assistant Professor, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>Brain Computing Interfacing and the Life(time) Argument for Sustainable Computing</em></p>
+      <details>
+        <summary>Biography</summary>
+        <p>Abdulrahman is an assistant professor at MBZUAI. His work is at the intersection of computer architecture, software system design, and ML, with the goal of co-designing future ML systems for high performance, scalable reliability, and intelligent resource allocation. Prior to joining MBZUAI in Abu Dhabi, he did a postdoc at Harvard University, received his PhD in CS at UIUC, and completed his BSE in EE at Princeton University.</p>
+      </details>
     </div>
   </article>
 
