@@ -187,7 +187,7 @@ This workshop brings together complementary perspectives to address this gap acr
       </details>
       <details>
         <summary>Abstract</summary>
-        <p> Assessing the sustainability of AI requires accounting for both operational energy use and the embodied emissions of its hardware. This talk examines how integrated-circuit manufacturing contributes to the life-cycle footprint of AI datacenters. It introduces imec.netzero’s bottom-up virtual fab model, combined in an overall model for performance, energy and emissions for AI datacenters.  We look at a case study of 1024 Nvidia H100 GPU cluster, to illustrates how the assessment scales from individual chips to servers and facility infrastructure, highlighting why sustainable hardware–software design decisions should consider the full life cycle.</p>
+        <p> Assessing the sustainability of AI requires accounting for both operational energy use and the embodied emissions of its hardware. This talk examines how integrated-circuit manufacturing contributes to the life-cycle footprint of AI datacenters. It introduces imec.netzero’s bottom-up virtual fab model, combined in an overall model for performance, energy and emissions for AI datacenters.  We look at a case study of 1024 Nvidia H100 GPU cluster, to illustrate how the assessment scales from individual chips to servers and facility infrastructure, highlighting why sustainable hardware–software design decisions should consider the full life cycle.</p>
       </details>
      
       
