@@ -1,5 +1,5 @@
 - name: Timon Evenblij
-  photo: photos/timon-evenblij.jpeg
+  photo: photos/timon-evenblij.jpg
   affiliation: imec
   bio: >-
     Timon Evenblij is a Principal Member of Technical Staff at the Compute System Architecture (CSA) department at imec. He received the M.S. degree in computer science engineering from Ghent University. His research is focused on performance modeling and performance analysis for future computer systems. As future systems utilize intensive hardware-software codesign, he is interested in performance, power and sustainability optimizations crossing multiple layers of the computer architecture stack, spanning from applications to semiconductor technology innovations.
