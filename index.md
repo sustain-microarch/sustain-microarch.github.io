@@ -14,16 +14,16 @@ This workshop brings together complementary perspectives to address this gap acr
 | Time  | Session | Speaker | Topic | Resources |
 |---|---|---|---|---|
 | 08:00 - 08:05 | Opening | Arindam Malik (imec) | Overview of the Workshop |   |
-| 08:05 - 08:20 | Session 1 | Rutwik Jain (Uwisc) |   |   |
+| 08:05 - 08:20 | Session 1 | Rutwik Jain (Uwisc) | Embrace the Chaos: Harnessing Variability for Large-Scale System Efficiency  |   |
 | 08:20 - 08:35 | Session 1 | Mariam Elgamal (Harvard) |   |   |
-| 08:35 - 08:50 | Session 1 | August Ning (EPFL) |   |   |
+| 08:35 - 08:50 | Session 1 | August Ning (EPFL) | Metrics for Energy-Efficient Server Design and Operation  |   |
 | 08:50 - 09:00 | Buffer + Coffee Break |   |   |   |
 | 09:00 - 09:15 | Session 2 | Luca Benini (ETHZ, UNIBO) | Energy efficiency and Power management for AI accelerators - Tackling the MW rack challenge |   |
-| 09:15 - 09:30 | Session 2 | Abdulrahman Mahmoud (MBZUAI)   |   |   |
+| 09:15 - 09:30 | Session 2 | Abdulrahman Mahmoud (MBZUAI)   | Brain Computing Interfacing and the Life(time) Argument for Sustainable Computing   |   |
 | 09:30 - 09:45 | Session 2 | Vijay Reddi (Harvard) | Flexible electronics for sustainable computing |   |
 | 09:45 - 10:00 | Buffer + Coffee break |   |   |   |
 | 10:00 - 10:15 | Session 3 | Alex Bruefach (Meta) | Designing Data Foundations for Sustainability at Scale |   |
-| 10:15 - 10:30 | Session 3 | Sarah McAllister (UWisc) |   |   |
+| 10:15 - 10:30 | Session 3 | Sarah McAllister (UWisc) | Out of sight, but no longer out of mind: tackling stored data’s emissions footprint  |   |
 | 10:30 - 10:45 | Session 3 | Timon Evenblij (imec) | The impact of IC manufacturing on the sustainability of AI  |   |
 | 10:45- 11:00 | Buffer + Coffee break |   |   |   |
 | 11:00 - 11:30 | Panel | All presenters |   |   |
