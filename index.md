@@ -147,6 +147,10 @@ This workshop brings together complementary perspectives to address this gap acr
       <p class="speaker-affiliation">Assistant Professor, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</p>
       <p class="speaker-talk"><strong>Talk:</strong> <em>Brain Computing Interfacing and the Life(time) Argument for Sustainable Computing</em></p>
       <details>
+        <summary>Abstract</summary>
+        <p>Today, most computing devices are replaced every few years, where the lifetime of processors in deployment is typically 5-7 years. Brain–computer interfaces, on the other hand, are not meant to be replaced. Once implanted, a BCI has to keep working within tight physical limits while the algorithms it runs, and the science behind them, keep changing. Building on lessons from the HALO processor and recent work in the architecture community, this talk treats BCIs as a lens on sustainable computing, where a device’s lifetime is bound up with a person’s life. I’ll draw on our recent work in spike sorting and carbon-aware analysis to ask what we would build differently if replacement were not an option.</p>
+      </details>
+      <details>
         <summary>Biography</summary>
         <p>Abdulrahman is an assistant professor at MBZUAI. His work is at the intersection of computer architecture, software system design, and ML, with the goal of co-designing future ML systems for high performance, scalable reliability, and intelligent resource allocation. Prior to joining MBZUAI in Abu Dhabi, he did a postdoc at Harvard University, received his PhD in CS at UIUC, and completed his BSE in EE at Princeton University.</p>
       </details>
