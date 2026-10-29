@@ -20,7 +20,7 @@ This workshop brings together complementary perspectives to address this gap acr
 | 08:50 - 09:00 | Buffer + Coffee Break |   |   |   |
 | 09:00 - 09:15 | Session 2 | Luca Benini (ETHZ, UNIBO) | Energy efficiency and Power management for AI accelerators - Tackling the MW rack challenge |   |
 | 09:15 - 09:30 | Session 2 | Abdulrahman Mahmoud (MBZUAI)   | Brain Computing Interfacing and the Life(time) Argument for Sustainable Computing   |   |
-| 09:30 - 09:45 | Session 2 | Vijay Reddi (Harvard) | Flexible electronics for sustainable computing |   |
+| 09:30 - 09:45 | Session 2 | Vijay Reddi (Harvard) | Flexible Electronics for Sustainable Computing |   |
 | 09:45 - 10:00 | Buffer + Coffee break |   |   |   |
 | 10:00 - 10:15 | Session 3 | Alex Bruefach (Meta) | Designing Data Foundations for Sustainability at Scale |   |
 | 10:15 - 10:30 | Session 3 | Sarah McAllister (UWisc) | Out of sight, but no longer out of mind: tackling stored data’s emissions footprint  |   |
@@ -99,8 +99,16 @@ This workshop brings together complementary perspectives to address this gap acr
     <div class="photo-name photo-placeholder" aria-hidden="true"></div>
     <div class="bio">
       <h3>Vijay Janapa Reddi</h3>
-      <p class="speaker-affiliation">Gordon McKay Professor of Electrical Engineering, John A. Paulson School of Engineering and Applied Sciences, Harvard University</p>
-      <p class="speaker-talk"><strong>Talk:</strong> <em>Flexible electronics for sustainable computing</em></p>
+      <p class="speaker-affiliation">Gordon McKay Professor of Electrical and Computer Engineering, Harvard University</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>Flexible Electronics for Sustainable Computing</em></p>
+      <details>
+        <summary>Abstract</summary>
+        <p>Computing is poised for its next leap in scale, from billions of devices to trillions of everyday items like food packaging, medical patches, bottles, and clothing tags, each capable of sensing and making decisions independently. This shift, referred to as item-level intelligence, is not well-suited to silicon, as the cost and carbon footprint of a chip are impractical for products with short lifespans. Natively flexible electronics offer a solution by significantly lowering costs. Thin-film IGZO circuits on plastic are far cheaper than silicon, but they operate at kilohertz speeds and support only a few thousand gates. This talk makes the case for lifetime-aware design in sustainable item-level intelligence. Operational lifetimes can vary by 1000x across applications, which means the optimal architecture depends on how long an item lasts and how frequently it computes, as embodied and operational carbon footprints trade off. I'll introduce FlexiFlow (ASPLOS 2026), a full-stack framework comprising three elements. FlexiBench provides sustainability workloads aligned with the UN Sustainable Development Goals. FlexiBits is a family of RISC-V cores with 1-, 4-, and 8-bit datapaths. A carbon model determines the best design for each deployment. Selecting the microarchitecture based on lifetime reduces carbon by up to 1.62x, while algorithm optimization can yield up to a 14.5x reduction. We validated this approach with the first tape-out on a flexible-electronics process using fully open-source tools. I'll conclude with preliminary findings on AI agents that co-design the hardware and software for these items.</p>
+      </details>
+      <details>
+        <summary>Biography</summary>
+        <p>Vijay Janapa Reddi is the Gordon McKay Professor of Electrical and Computer Engineering at Harvard University, Vice President and co-founder of MLCommons, and a Visiting Professor at ETH Zürich. His research focuses on computer architecture and machine learning systems, ranging from datacenters to the extreme edge. He co-led the development of MLPerf Inference, the industry-standard benchmark for machine learning systems, and MLPerf Power, which measures their energy efficiency. Collaborating with PragmatIC Semiconductor and Qamcom, his team developed Flex-RV, a bendable, non-silicon RISC-V microprocessor published in Nature in 2024 (watch it run: <a href="https://vimeo.com/1012849664">https://vimeo.com/1012849664</a>). The team also created FlexiFlow, a lifetime-aware design framework for item-level intelligence, published at ASPLOS 2026. He is the founder and lead author of the open-source Machine Learning Systems textbook (mlsysbook.ai), used by more than 50 universities, and he launched the TinyML program on edX, which has reached over 100,000 learners. His accolades include the IEEE TCCA Young Computer Architect Award, inductions into the MICRO and HPCA Halls of Fame, and multiple IEEE Micro Top Picks. He earned his Ph.D. from Harvard University.</p>
+      </details>
     </div>
   </article>
 
