@@ -15,7 +15,7 @@ This workshop brings together complementary perspectives to address this gap acr
 |---|---|---|---|---|
 | 08:00 - 08:05 | Opening | Arindam Malik (imec) | Overview of the Workshop |   |
 | 08:05 - 08:20 | Session 1 | Rutwik Jain (Uwisc) | Embrace the Chaos: Harnessing Variability for Large-Scale System Efficiency  |   |
-| 08:20 - 08:35 | Session 1 | Mariam Elgamal (Harvard) |   |   |
+| 08:20 - 08:35 | Session 1 | Mariam Elgamal (Harvard) | Devices, Metrics, and Optimization Techniques for Future CO2-Efficient Computing Systems   |   |
 | 08:35 - 08:50 | Session 1 | August Ning (EPFL) | Metrics for Energy-Efficient Server Design and Operation  |   |
 | 08:50 - 09:00 | Buffer + Coffee Break |   |   |   |
 | 09:00 - 09:15 | Session 2 | Luca Benini (ETHZ, UNIBO) | Energy efficiency and Power management for AI accelerators - Tackling the MW rack challenge |   |
@@ -81,6 +81,11 @@ This workshop brings together complementary perspectives to address this gap acr
     <div class="bio">
       <h3>Mariam Elgamal</h3>
       <p class="speaker-affiliation">PhD candidate, Harvard University</p>
+      <p class="speaker-talk"><strong>Talk:</strong> <em>Devices, Metrics, and Optimization Techniques for Future CO2-Efficient Computing System</em></p>
+      <details>
+        <summary>Abstract</summary>
+        <p>The carbon footprint of computing systems is on the rise, and there are many challenges to minimizing it across multiple layers of the computing stack. For instance, among the many emerging technologies being actively explored for future computing systems, which are most beneficial for carbon footprint, while considering trade-offs in power, performance, and area? And how do we quantify these trade-offs to co-optimize across materials, fabrication, devices, architectures, and applications for the most carbon-efficient design? Furthermore, how do we optimize for carbon efficiency when there is high uncertainty in even quantifying carbon footprint? In this talk, I will address these challenges through case studies spanning multiple layers of the computing stack. First, I will go through how we quantify the carbon footprint of emerging technologies in DRAM, flash, and logic using detailed fabrication process flow modeling, and VLSI and architecture design tools. Then, I will justify a metric for carbon efficiency, to balance the carbon footprint and energy efficiency of computing systems. Finally, I will show how we leverage Robust Optimization techniques to optimize under uncertain carbon footprint data, while trading that off with conventional metrics such as power, performance, and area.</p>
+      </details>
       <details>
         <summary>Biography</summary>
         <p>Mariam Elgamal is a PhD candidate at Harvard University, working with Professors Gage Hills, David Brooks, and Gu-Yeon Wei. Her research interests are at the intersection of computer architecture and circuit design, with a focus on optimizing computing systems for energy efficiency and environmental sustainability across multiple layers of the computing stack. Mariam’s work appears in venues including ISCA, HPCA, ASPLOS, DATE, ICCAD, and IEDM, and has been recognized by multiple awards, including: 2023 IEEE Micro Top Picks, HPCA 2025 Best Paper Honorable Mention, DATE 2025 Best Paper Award Candidate, ASPLOS 2026 Best Paper Award, and 2026 IEEE Micro Top Picks Honorable Mention. She was also recognized as a Heidelberg Laureate Forum Young Investigator, and a NextProf Nexus 2025 Awardee.</p>
